@@ -1,0 +1,17 @@
+{
+  "name": "HY_BSD",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/Release/factoryInterface",
+  "scripts": {
+    "install": "node-gyp rebuild  --target=9.0.0  --arch=x64 --dist-url=https://electronjs.org/headers",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cui_sh",
+  "license": "ISC",
+  "gypfile": true,
+  "dependencies": {
+    "nan": "^2.14.0",
+    "node-pre-gyp": "^0.14.0"
+  }
+}
