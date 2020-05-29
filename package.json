@@ -1,17 +1,57 @@
 {
-  "name": "HY_BSD",
-  "version": "1.0.0",
-  "description": "",
+  "_from": "hy_bsd",
+  "_id": "hy_bsd@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-BfPR6tIoOmD+vraff1yg8chtIYH19EORYJfbsrHQnrW0jn1vnqqlNy+teUaA8Krt3D5LzwareP5hWsk7ASd0Xg==",
+  "_location": "/hy_bsd",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "hy_bsd",
+    "name": "hy_bsd",
+    "escapedName": "hy_bsd",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/hy_bsd/-/hy_bsd-1.0.0.tgz",
+  "_shasum": "bd9e16935bc77266dec89a1650a3f1ba46fffc6c",
+  "_spec": "hy_bsd",
+  "_where": "F:\\ELECTRON\\BSDev9.0.0\\electeon9.0.0",
+  "author": {
+    "name": "cui_sh"
+  },
+  "bugs": {
+    "url": "https://github.com/cuish0920/hy_bsd/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "nan": "^2.14.0",
+    "node-pre-gyp": "^0.14.0"
+  },
+  "deprecated": false,
+  "description": "光纤光谱仪",
+  "devDependencies": {},
+  "directories": {
+    "lib": "lib"
+  },
+  "gypfile": true,
+  "homepage": "https://github.com/cuish0920/hy_bsd#readme",
+  "license": "ISC",
   "main": "./build/Release/factoryInterface",
+  "name": "hy_bsd",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuish0920/hy_bsd.git"
+  },
   "scripts": {
     "install": "node-gyp rebuild  --target=9.0.0  --arch=x64 --dist-url=https://electronjs.org/headers",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "cui_sh",
-  "license": "ISC",
-  "gypfile": true,
-  "dependencies": {
-    "nan": "^2.14.0",
-    "node-pre-gyp": "^0.14.0"
-  }
+  "version": "1.0.2"
 }
